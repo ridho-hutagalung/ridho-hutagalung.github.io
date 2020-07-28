@@ -1,0 +1,82 @@
+html {
+	position:relative;
+
+}
+
+body{
+	margin:120px;
+	background-image:url(../mantap/tiny-squares.png);
+	margin-top:30px;
+
+}
+.jumbotron {
+	height: 400px;
+	background-image: url(../mantap/alam6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	color: #eaeaea;
+	overflow: hidden;
+
+}
+
+.jumbotron img {
+	width: 200px; 
+	border: 5px solid #eaeaea;
+	box-shadow: 1px 1px 10 px rgba(0,0,0,0,5);
+}
+.jumbotron h1, .jumbotron p {
+text-shadow: 1px 1px 10 px rgba(0,0,0,0,5);
+
+}	
+
+hr {
+width: 250px;
+border-top:4px solid #999;
+
+}
+
+section {
+	min-height: 600px;
+}
+.portofolio {
+	background-color:#eee;
+} 
+
+.portofolio .thumbnail{
+opacity: 0;
+transform: translate(0, -40px);
+transition: .5s;
+
+}
+.portofolio .thumbnail.muncul {
+
+opacity: 1;
+transform: translate(0,0);
+transition: .5s ;
+
+}
+
+
+.contact {
+min-height: 800px;
+}
+
+footer{
+	position: absolute;
+	bottom:0;x
+	width:100;
+	height: 120px;
+	background-color: #333;
+	color: #aaa;
+	padding-top: 30px;
+
+
+}
+
+footer p{
+	color: #aaa;
+	font-size: 0.9em;
+
+}
+	
